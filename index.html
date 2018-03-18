@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Resume Maker</title>
+
+	<!-- Text fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
+
+	<!-- Imported css -->
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Custom css -->
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+
+	<div class="menu-small">
+		<ul>
+			<li class="active hvr menuIntro" scroll-to="landing"><a>Main</a></li>
+			<li class="menuResume" scroll-to="resume"><a>Resume</a></li>
+			<li class="menuCover" scroll-to="cover"><a>Cover</a></li>
+			<li class="menuOpenings" scroll-to="openings"><a>Job Openings</a></li>
+			<li class="menuInterviews" scroll-to="interviews"><a>Interviews</a></li>
+			<!--<li class="menuGenerator"><a>Generator</a></li>-->
+		</ul>
+	</div>
+	<div class="menu">
+		<div class="bg transition"></div>
+		<!-- This will be the nav bar at the top of the page (if user scrolls down make this have a solid background otherwise be transparent) -->
+		<ul>
+			<li class="active hvr menuIntro" scroll-to="landing"><a>Main</a></li>
+			<li class="menuResume" scroll-to="resume"><a>Resume</a></li>
+			<li class="menuCover" scroll-to="cover"><a>Cover</a></li>
+			<li class="menuOpenings" scroll-to="openings"><a>Job Openings</a></li>
+			<li class="menuInterviews" scroll-to="interviews"><a>Interviews</a></li>
+			<!--<li class="menuGenerator"><a>Generator</a></li>-->
+		</ul>
+	</div>
+	<div id="main">
+		<div class="menu-small-click">&#x2630</div>
+		<!-- This will be where the content is. Make this as tall as the page is but twice as wide with a left: 0; and position absolute; overflow: none; -->
+		<div>
+			<div id="landing" >
+				<div style="display:flex;justify-content:center;align-items:center;margin:auto;flex-direction:column;color:#f1f1f1;" >
+					<h1 style="text-align:center;">Armada Resumes <br> <span style="font-size:0.75em;">Armada helps you start from the very beginning to pass a successful job interview.</span></h1>
+				</div>
+
+			</div>
+			<div class="content" id="resume">
+				<h1 class="centered">The Resume</h1>
+				<div style="margin-top:2em;"></div>
+				<div class="col-lg-6" style="height:100%;justify-content:center;align-items:center;">
+					<h3 class="qa"><span style="text-align:center;display:inline-block;" class="one">Q. What is a resume?</span><br><span class="two">A. A resume is a tool to summarize your qualifications on why an employer should hire you.</span></h3>
+					<div style="margin-top:2em;"></div>
+					<h3 class="qa"><span  class="one">Q. What do I put on it?</span><br><span  class="two">A. Besides your qualifications, you should be specific on your relevenace to the position you are trying to be hired for. Other information includes <ul>
+                            <li><span style="color:#f1f1f1">Carrer Objective</span> <ul><li>Tells the reader where you would like to go with your carrer over time.</li></ul></li>
+                            <li><span style="color:#f1f1f1">Professional Experince</span> <ul><li>If you've had any work experince with the job you are trying to go for, this is where you would put it. The more you put, that's on subject, the better.</li></ul></li>
+                            <li><span style="color:#f1f1f1">Education</span> <ul><li>Where did you go to school? Do you have a high school or college education? What was your GPA?</li></ul></li>
+                            <li><span style="color:#f1f1f1">Additional Skills</span> <ul><li>Anything you think would be relevant for the reader to know about you.</li></ul></li>
+                        </ul></span></h3>
+					<div style="margin-top:2em;"></div>
+					<h3 class="qa"><span style="text-align:center;display:inline-block;" class="one">Q. What size font should I use?</span><br><span  class="two">A. Nothing to large, but no smaller than an 11 point font as it will start to strain the eyes.</span></h3>
+					<div style="margin-top:2em;"></div>
+					<h3 class="qa"><span style="text-align:center;display:inline-block;" class="one">Q. What font should I use?</span><br><span class="two">A. The most common is Times New Roman, but you can use any type of 'Sans' or 'Arial' font. In otherwords it should be clean and easy to read, don't do anything special here.</span></h3>
+
+
+				</div>
+				<div class="col-lg-6 centered"><img src="img/resume-template.jpg" class="img"></div>
+
+			</div>
+			<div class="content" id="cover">
+				<h1 class="centered">The Cover Letter</h1>
+				<div class="col-lg-6">
+                        <h3 class="qa"><span style="text-align:center;display:inline-block;" class="one">Q. What is a Cover Letter?</span><br><span class="two">A. A short letter or document sent with your resume to explain more about yourself and how you would fit the job.</span></h3>
+                        <div style="margin-top:2em;"></div>
+                        <h3 class="qa"><span  class="one">Q. What do I put on it?</span><br><span  class="two">A. Introduce yourself, list the skills you have and experinces needed for the job, and if you're applying for a specific job now would be the time to mention it.</span></h3>
+                        <div style="margin-top:2em;"></div>
+                        <h3 class="qa"><span style="text-align:center;display:inline-block;" class="one">Q. Are cover letters needed?</span><br><span  class="two">A. They aren't 100 per-cent needed but employers value them and if you put in the extra effort it speaks more about you.</span></h3>
+                        <div style="margin-top:2em;"></div>
+                        <h3 class="qa"><span style="text-align:center;display:inline-block;" class="one">Q. What about recruiters, do they care?</span><br><span class="two">A. Not as much as employers. Most have stopped asking for them, but if you do want to send one it's best to email, or mail it, directly to the recruiter.</span></h3>
+    
+    
+                    </div>
+                    <div class="col-lg-6 centered"><img src="img/cover-letter.png" class="img"></div>
+			</div>
+			<div class="content" id="openings">
+                <h1 class="centered">Job Openings</h1>
+                <div class="centered col-lg-3"></div>
+				<div class="centered col-lg-6">
+                        <h3 class="qa"><span style="text-align:center;display:inline-block;" class="one">Q. Where can I go to find a Job Opening?</span><br><span class="two" style="text-align:left;"> <ul>A.
+                                <li><span style="color:#f1f1f1">The Company's Website</span> <ul><li>If you already have an idea f where to work, and they have a website, you can most likely find if they have any openings here.</li></ul></li>
+                                <li><span style="color:#f1f1f1"><a href="https://www.linkedin.com/">LinkedIn</a></span> <ul><li>LinkedIn is a professional website that you can make a professional page about yourself and companies do the same. This makes it easier for employers and workers to find each other.</li></ul></li>
+                                <li><span style="color:#f1f1f1">SimplyHired</span> <ul><li>SimplyHired is an aggregator. This means they will show ads that are paid for by employers or recruiters. They also look all over the internet for other ads to give you so that way you can do a search of what field you would like to go into and apply. <br> the downside to this is they don't tend to remove old ads, so you may get an ad that was filled years ago.</li></ul></li>
+                                <li><span style="color:#f1f1f1">Google</span> <ul><li>Just a simple Google search looking for jobs will come up with relavent jobs in your area that you can explore, although this option may require a little more digging on your part.</li></ul></li>
+                            </ul></span></h3>
+                        <div style="margin-top:2em;"></div>
+                </div>
+                <div class="centered col-lg-3"></div>
+			</div>
+			<div class="content" id="interviews">
+				<h1 class="centered">Interviews</h1>
+				<div class="centered col-lg-3"></div>
+				<div class="centered col-lg-6">
+					<h3 class="qa"><span  class="one">Q. What should I wear.</span><br><span  class="two">A. It depends if the job you are going for is business or business casual. If it seems like more of a formal company then you should either buy or rent a nice suit, or a conservative dress if you are female. <br> If the business is casual, dress pants, dress shoes, and a button down shirt is okay for men. For women you can either wear a button down or a blouse with a skirt.</span>
+					</h3>
+					<h3 class="qa" style="text-align:left;"><span  class="one">Q. What should I bring.</span><br><span  class="two"><ul>A.
+							<li><span style="color:#f1f1f1">Questions</span> <ul><li>This isn't a one-sided interview. Make sure to interview the company to make sure its the right fit for you too!</li></ul></li>
+							<li><span style="color:#f1f1f1">Gum and or Breath Mints</span> <ul><li>You don't appreciate smelly breath so why even take the chance with an interview, take a mint before you go! Make sure you spit out any gum before the interview as it can be seen as unprofessional and distracting.</li></ul></li>
+							<li><span style="color:#f1f1f1">Resume</span> <ul><li>A backup of your resume is never a bad thing to bring to an interview and some employeers/recruiters may request one during an interview.</li></ul></li>
+					</h3>
+                </div>
+                <div class="centered col-lg-3"></div>
+                
+			</div>
+		</div>
+
+		<!--<img src="img/headerImage.jpg">-->
+	</div>
+
+	<!-- The extra script codes below are used for electron and are not needed but can be used for clients -->
+
+	<!-- Insert this line above script imports  -->
+	<script>
+if (typeof module === 'object') {
+	window.module = module;
+	module = undefined;
+}
+	</script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<!-- normal script imports etc  -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Insert this line after script imports -->
+	<script>
+if (window.module) module = window.module;
+	</script>
+</body>
+
+</html>
