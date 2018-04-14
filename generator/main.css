@@ -1,0 +1,43 @@
+body{
+    background:#1a1b1d;
+    overflow:hidden;
+    
+}
+*{
+    color:#f3f3f3;
+}
+input{
+    color:#000000;
+}
+#display{
+    font-size:50vw;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width:100vw;
+}
+#nums{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+}
+#nums input{
+    flex:1;
+    margin:20px;
+    height:40px;
+    font-size:30px;
+    margin-bottom:0;
+}
+#submit{
+    margin-top:0;
+}
+#tittle{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100vw;
+    font-size:2em;
+}
